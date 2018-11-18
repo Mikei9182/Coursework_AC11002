@@ -1,0 +1,38 @@
+header img {
+  width: 90px;
+  float: left;
+}
+
+header h1 {
+  padding-left: 120px;
+  margin-bottom: 14px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: red;
+}
+
+nav li a:active {
+  background-color: yellow;
+  color: black;
+}
