@@ -1,10 +1,16 @@
-header img {
-  width: 90px;
-  float: left;
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Quicksand');
+
+h1 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+li a, p {
+  font-family: 'Quicksand', sans-serif;
 }
 
 header h1 {
-  padding-left: 120px;
+  font-size: 42px;
+  padding: 0;
   margin-bottom: 14px;
 }
 
@@ -29,10 +35,26 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: red;
+  background-color: grey;
 }
 
 nav li a:active {
-  background-color: yellow;
-  color: black;
+  background-color: red;
+}
+
+main p {
+  margin: 10px auto;
+  max-width: 90%;
+  float: right;
+}
+
+main img {
+  width: 10%;
+  height: 300px;
+  float: left;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
 }
