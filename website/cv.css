@@ -10,8 +10,14 @@ li a, p {
 
 header h1 {
   font-size: 42px;
+  color: #00a2e8;
+  margin: 10px 0 10px 0;
+}
+
+.name {
+  width: 30%;
   padding: 0;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -39,19 +45,31 @@ nav li a:hover {
 }
 
 nav li a:active {
-  background-color: red;
+  background-color: #00a2e8;
 }
 
 main p {
   margin: 10px auto;
-  max-width: 90%;
+  float: left;
+}
+
+main h1 {
+  margin: 10px auto;
+  float: left;
+}
+
+#footer1 {
+  width: 50%;
+  float: left;
+}
+
+#footer2 {
+  width: 50%;
   float: right;
 }
 
-main img {
-  width: 10%;
-  height: 300px;
-  float: left;
+footer img {
+  width: 480px;
 }
 
 body {
