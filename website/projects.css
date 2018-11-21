@@ -55,14 +55,12 @@ nav li a:active {
 
 main p {
   margin: 10px auto;
+  float: left;
 }
 
 main h1 {
   margin: 10px auto;
-}
-
-main ul {
-  padding-right: 500px;
+  float: left;
 }
 
 footer img {
