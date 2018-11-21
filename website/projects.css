@@ -54,15 +54,48 @@ nav li a:active {
 }
 
 main p {
-  margin: 10px auto;
+  margin: 10px 10px 10px 10px;
+  float: left;
 }
 
 main h1 {
   margin: 10px auto;
+  float: left;
 }
 
-main ul {
-  padding-right: 500px;
+.project1 {
+  background-color: #001E2B;;
+  color: white;
+  width: 100%;
+  float: left;
+}
+
+.project1 p {
+  float: left;
+}
+
+.project1 img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0 10px 10px 0;
+  float: right;
+}
+
+.project2 {
+  background-color: black;
+  color: #00a2e8;
+  width: 100%;
+  float: left;
+}
+
+.project2 p {
+  float: left;
+}
+
+.project2 img {
+  max-height: 150px;
+  margin: 0 10px 10px 0;
+  float: right;
 }
 
 footer img {

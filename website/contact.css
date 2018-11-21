@@ -4,7 +4,7 @@ h1 {
   font-family: 'Oxygen', sans-serif;
 }
 
-li a, p {
+li a, p, ul{
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -62,7 +62,7 @@ main h1 {
 }
 
 main ul {
-  padding-right: 500px;
+  float: left;
 }
 
 footer img {
