@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Quicksand');
+
+h1 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+li a, p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 42px;
+  color: #00a2e8;
+  margin: 10px 0 10px 0;
+}
+
+.name {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001E2B;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: grey;
+}
+
+nav li a:active {
+  background-color: #00a2e8;
+}
+
+main p {
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+main h1 {
+  margin: 10px auto;
+  float: left;
+}
+
+.project1 {
+  background-color: #001E2B;;
+  color: white;
+  width: 100%;
+  float: left;
+}
+
+.project1 p {
+  float: left;
+}
+
+.project1 img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0 10px 10px 0;
+  float: right;
+}
+
+.project2 {
+  background-color: black;
+  color: #00a2e8;
+  width: 100%;
+  float: left;
+}
+
+.project2 p {
+  float: left;
+}
+
+.project2 img {
+  max-height: 150px;
+  margin: 0 10px 10px 0;
+  float: right;
+}
+
+footer img {
+  width: 100%;
+  margin: 0 auto;
+}

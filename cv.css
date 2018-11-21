@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Quicksand');
+
+h1, h2, h3 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+li a, p, ul {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 42px;
+  color: #00a2e8;
+  margin: 10px 0 10px 0;
+}
+
+.name {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001E2B;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: grey;
+}
+
+nav li a:active {
+  background-color: #00a2e8;
+}
+
+main {
+  float: left;
+}
+
+main p {
+  margin: 10px auto;
+  float: left;
+}
+
+main h1 {
+  margin: 10px auto;
+  float: left;
+}
+
+main h2 {
+  margin: 10px auto;
+  float: left;
+}
+
+main h3 {
+  margin: 10px 0 0 10px;
+  float: left;
+}
+
+.Education {
+  width: 100%;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+
+.National5 {
+  background-color: #001E2B;
+  color: white;
+  width: 100%;
+  float: left;
+}
+
+.Highers {
+  background-color: black;
+  color: #00a2e8;
+  width: 100%;
+  float: left;
+}
+
+.AdvancedHighers {
+  background-color: #001E2B;
+  color: white;
+  width: 100%;
+  float: left;
+}
+
+main ul {
+  margin: 10px auto;
+  float: left;
+}
+
+footer img {
+  width: 100%;
+  margin: 0 auto;
+}
